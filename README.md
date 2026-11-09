@@ -1,22 +1,22 @@
-🎣 Elevate Labs Cyber Security Internship - Task 2
+# 🎣 Elevate Labs Cyber Security Internship - Task 2
 
-🎯 Task: Analyze a Phishing Email Sample
+## 🎯 Task: Analyze a Phishing Email Sample
 
-📝 Objective
+###📝 Objective
 
 The objective of this task is to identify phishing characteristics in a suspicious email sample by performing both visual and technical header analysis.
 
-🛠️ Tools Used
+### 🛠️ Tools Used
 
 Raw Phishing Email Sample (.eml format)
 
 EML Analyzer: Online tool used for header extraction and threat scoring.
 
-🕵️ Executive Summary
+### 🕵️ Executive Summary
 
 During this task, a suspicious email impersonating PayPal was analyzed. The email claimed the user's account was temporarily restricted. Technical analysis using an EML Analyzer confirmed a "Malicious" verdict. The email failed critical authentication checks (SPF and DMARC) and utilized domain spoofing alongside social engineering tactics to steal credentials.
 
-🚩 Indicators of Compromise (IoCs)
+### 🚩 Indicators of Compromise (IoCs)
 
 Spoofed Sender: service@paypal.com
 
@@ -26,7 +26,7 @@ Malicious Target URL: http://www.paypal-update-alert.com/login
 
 Originating IP (from headers): 198.51.100.23
 
-🔍 Phase 1: Visual & Social Engineering Analysis
+### 🔍 Phase 1: Visual & Social Engineering Analysis
 
 Based on the message content, several red flags were identified:
 
@@ -38,7 +38,7 @@ Mismatched URLs: While the button says "Verify Identity Now," the underlying lin
 
 (See 3-email-content.jpg for visual proof)
 
-⚙️ Phase 2: Technical Header Analysis
+### ⚙️ Phase 2: Technical Header Analysis
 
 Extracting and analyzing the raw email headers revealed the true origin of the message. The high-trust sender domain (paypal.com) failed domain authentication:
 
