@@ -2,7 +2,7 @@
 
 ## 🎯 Task: Analyze a Phishing Email Sample
 
-###📝 Objective
+### 📝 Objective
 
 The objective of this task is to identify phishing characteristics in a suspicious email sample by performing both visual and technical header analysis.
 
