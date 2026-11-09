@@ -1,0 +1,41 @@
+Delivered-To: jayesh001@gmail.com
+Return-Path: <bounces@paypal-update-alert.com>
+Received: from mail.paypal-update-alert.com (mail.paypal-update-alert.com. [198.51.100.23])
+        by mx.google.com with ESMTPS id xyz12345.2026.11.09
+        for <jayesh001@gmail.com>;
+        Mon, 09 Nov 2026 19:50:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of bounces@paypal-update-alert.com does not designate 198.51.100.23 as permitted sender);
+       dkim=neutral (no signature);
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=paypal.com
+From: "PayPal Security" <service@paypal.com>
+To: jayesh001@gmail.com
+Subject: URGENT: Your account has been temporarily restricted
+Date: Mon, 09 Nov 2026 19:45:00 +0000
+Message-ID: <1234567890@mail.paypal-update-alert.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { font-family: Arial, sans-serif; color: #333; }
+  .container { padding: 20px; border: 1px solid #ccc; max-width: 600px; margin: auto; }
+  .header { background-color: #003087; color: white; padding: 10px; font-size: 24px; font-weight: bold; }
+  .btn { display: inline-block; padding: 10px 20px; background-color: #0070ba; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">PayPal</div>
+    <h2>Account Restriction Notice</h2>
+    <p>Dear Customer,</p>
+    <p>We noticed unusual activity on your account. For your security, we have temporarily restricted your account features.</p>
+    <p>To restore your account, please verify your identity immediately by clicking the secure link below:</p>
+    <p><a href="http://www.paypal-update-alert.com/login" class="btn">Verify Identity Now</a></p>
+    <p>If you do not complete this verification within 24 hours, your account will be permanently suspended.</p>
+    <p>Thank you,<br>PayPal Security Team</p>
+  </div>
+</body>
+</html>
